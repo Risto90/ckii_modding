@@ -1,0 +1,8 @@
+1 = {
+	name = "Noah"
+	culture = irish
+	used_for_random = no}
+2 = {
+	name = "Tuatha De Danann"
+	culture = irish
+	used_for_random=no}

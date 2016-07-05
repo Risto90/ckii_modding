@@ -1,0 +1,552 @@
+1 = {
+	name=Noah # Мой упоротый вариант Ноя
+	dynasty=1
+	diplomacy=10
+	martial=0
+	stewardship=45
+	intrigue=0
+	learning=25
+	religion=jewish
+	culture=jew
+	trait=midas_touched
+	trait=administrator
+	trait=architect
+	trait=theologian
+	trait=chaste
+	trait=temperate
+	trait=charitable
+	trait=diligent
+	trait=patient
+	trait=kind
+	trait=humble
+	trait=zealous
+	disallow_random_traits = yes
+	1.1.1={birth=yes}
+	25.1.1={death=yes}
+}
+2 = {
+	name=Bith # Бит, отец Cesair
+	dynasty=1
+	diplomacy=5
+	martial=5
+	stewardship=5
+	intrigue=5
+	learning=10
+	religion=pagan
+	culture=jew
+	trait=charismatic_negotiator
+	father=1 # Noah
+	24.1.1={birth=yes}
+	26.1.1={add_spouse=24}
+	50.1.1={death=yes}
+}
+3 = {
+	name=Cesair # Первая правительница Ирландии, дочь Bith, внучка Noah.
+	female = yes
+	dynasty=1
+	diplomacy=10
+	martial=2
+	stewardship=12
+	intrigue=5
+	learning=10
+	religion=pagan
+	culture=jew
+	trait=fortune_builder
+	father=2
+	mother=24
+	49.1.1={birth=yes}
+	49.1.1={add_spouse=4}
+	75.1.1={death={death_reason=death_accident}}
+}
+4 = {
+	name=Fionntan # муж Cesair
+	diplomacy=10
+	martial=25
+	stewardship=10
+	intrigue=5
+	learning=5
+	health = 165
+	religion=pagan
+	culture=horse
+	trait=brilliant_strategist
+	trait=inspiring_leader
+	trait=organizer
+	trait = just
+	trait = patient
+	trait = scholar
+	trait = celibate
+	disallow_random_traits = yes
+	49.1.1={birth=yes}
+	49.1.1={give_nickname=nick_the_wise}
+	75.1.1={death=yes}
+}
+5 = {
+	name = "Japheth" # отец Magog
+	dynasty=1
+	diplomacy=5
+	martial=5
+	stewardship=5
+	intrigue=5
+	learning=5
+	religion=jewish
+	culture=jew
+	father=1
+	24.1.1={birth=yes}
+	50.1.1={death=yes}
+}
+6 = {
+	name = "Magog" # отец Fathochta
+	dynasty=1
+	diplomacy=5
+	martial=5
+	stewardship=5
+	intrigue=5
+	learning=5
+	religion=jewish
+	culture=jew
+	father=5
+	49.1.1={birth=yes}
+	75.1.1={death=yes}
+}
+7 = {
+	name = "Fathochta" # отец Friamaint
+	dynasty=1
+	diplomacy=5
+	martial=5
+	stewardship=5
+	intrigue=5
+	learning=5
+	religion=jewish
+	culture=jew
+	father=6
+	74.1.1={birth=yes}
+	100.1.1={death=yes}
+}
+8 = {
+	name = "Friamaint" # отец Esru
+	dynasty=1
+	diplomacy=5
+	martial=5
+	stewardship=5
+	intrigue=5
+	learning=5
+	religion=jewish
+	culture=jew
+	father=7
+	99.1.1={birth=yes}
+	125.1.1={death=yes}
+}
+9 = {
+	name = "Esru" # отец Sru
+	dynasty=1
+	diplomacy=5
+	martial=5
+	stewardship=5
+	intrigue=5
+	learning=5
+	religion=jewish
+	culture=jew
+	father=8
+	124.1.1={birth=yes}
+	150.1.1={death=yes}
+}
+10 = {
+	name = "Sru" # отец Sera
+	dynasty=1
+	diplomacy=5
+	martial=5
+	stewardship=5
+	intrigue=5
+	learning=5
+	religion=jewish
+	culture=jew
+	father=9
+	149.1.1={birth=yes}
+	175.1.1={death=yes}
+}
+11 = {
+	name = "Sera" # отец Partholon
+	dynasty=1
+	diplomacy=5
+	martial=5
+	stewardship=5
+	intrigue=5
+	learning=5
+	religion=jewish
+	culture=jew
+	father=10
+	150.1.1={birth=yes}
+	225.1.1={death={death_reason=death_murder
+	killer=12}}
+}
+12 = {
+	name=Partholon # Партолон
+	dynasty=1
+	diplomacy=5
+	martial=5
+	stewardship=5
+	intrigue=5
+	learning=5
+	religion=jewish
+	culture=jew
+	trait=skilled_tactician
+	trait=diligent
+	trait=has_bubonic_plague
+	trait=kinslayer
+	father=11
+	224.1.1={birth=yes}
+	245.1.1={add_spouse=17}
+	250.1.1={death={death_reason=death_poor_health}}
+}
+13 = {
+	name = "Tait" # брат Partholon
+	dynasty=1
+	diplomacy=5
+	martial=5
+	stewardship=5
+	intrigue=5
+	learning=5
+	religion=jewish
+	culture=jew
+	father=11
+	224.1.1={birth=yes}
+	250.1.1={death=yes}
+}
+14 = {
+	name = "Slanga" # первый сын Partholon
+	dynasty=1
+	diplomacy=5
+	martial=5
+	stewardship=5
+	intrigue=5
+	learning=5
+	religion=jewish
+	culture=jew
+	trait=has_bubonic_plague
+	father=12
+	244.1.1={birth=yes}
+	245.1.1={add_spouse=18}
+	250.1.1={death={death_reason=death_poor_health}}
+}
+15 = {
+	name = "Rudraige" # второй сын Partholon
+	dynasty=1
+	diplomacy=5
+	martial=5
+	stewardship=5
+	intrigue=5
+	learning=5
+	religion=jewish
+	culture=jew
+	trait=has_bubonic_plague
+	father=12
+	245.1.1={birth=yes}
+	246.1.1={add_spouse=19}
+	250.1.1={death={death_reason=death_poor_health}}
+}
+16 = {
+	name = "Laiglinne" # третий сын Partholon
+	dynasty=1
+	diplomacy=5
+	martial=5
+	stewardship=5
+	intrigue=5
+	learning=5
+	religion=jewish
+	culture=jew
+	trait=has_bubonic_plague
+	father=12
+	246.1.1={birth=yes}
+	247.1.1={add_spouse=20}
+	250.1.1={death={death_reason=death_poor_health}}
+}
+17 = {
+	name = "Delgnat" #жена Partholon
+	female = yes
+	diplomacy=10
+	martial=5
+	stewardship=5
+	intrigue=10
+	learning=5
+	religion=jewish
+	culture=jew
+	trait=has_bubonic_plague
+	trait=elusive_shadow
+	trait=fair
+	trait=lustful
+	trait=deceitful
+	224.1.1={birth=yes}
+	250.1.1={death={death_reason=death_poor_health}}
+}
+18 = {
+	name = "Nerba" #жена Slanga
+	female = yes
+	diplomacy=5
+	martial=5
+	stewardship=5
+	intrigue=5
+	learning=5
+	religion=jewish
+	culture=jew
+	trait=has_bubonic_plague
+	224.1.1={birth=yes}
+	250.1.1={death={death_reason=death_poor_health}}
+}
+19 = {
+	name = "Cichba" #жена Rudraige
+	female = yes
+	diplomacy=5
+	martial=5
+	stewardship=5
+	intrigue=5
+	learning=5
+	religion=jewish
+	culture=jew
+	trait=has_bubonic_plague
+	224.1.1={birth=yes}
+	250.1.1={death={death_reason=death_poor_health}}
+}
+20 = {
+	name = "Cerbnad" #жена Laiglinne
+	female = yes
+	diplomacy=5
+	martial=5
+	stewardship=5
+	intrigue=5
+	learning=5
+	religion=jewish
+	culture=jew
+	trait=has_bubonic_plague
+	224.1.1={birth=yes}
+	250.1.1={death={death_reason=death_poor_health}}
+}
+21 = {
+	name = "Piamp" # сын Tait
+	dynasty=1
+	diplomacy=5
+	martial=5
+	stewardship=5
+	intrigue=5
+	learning=5
+	religion=jewish
+	culture=jew
+	father=13
+	249.1.1={birth=yes}
+	275.1.1={death=yes}
+}
+22 = {
+	name = "Agnoman" # сын Piamp
+	dynasty=1
+	diplomacy=5
+	martial=5
+	stewardship=5
+	intrigue=5
+	learning=5
+	religion=jewish
+	culture=jew
+	father=21
+	269.1.1={birth=yes}
+	300.1.1={death=yes}
+}
+23 = {
+	name = "Neimheadh" # сын Agnoman
+	dynasty=1
+	diplomacy=5
+	martial=5
+	stewardship=5
+	intrigue=5
+	learning=5
+	religion=jewish
+	culture=jew
+	trait=has_bubonic_plague
+	father=22
+	299.1.1={birth=yes}
+	300.1.1={give_nickname=nick_the_holy}
+	325.1.1={death={death_reason=death_poor_health}}
+}
+24 = {
+	name=Birren # Мать Cessair
+	female = yes
+	diplomacy=5
+	martial=5
+	stewardship=5
+	intrigue=5
+	learning=5
+	religion=pagan
+	culture=jew
+	24.1.1={birth=yes}
+	50.1.1={death=yes}
+}
+25 = {
+	name=Dela # Сын Neimheadh
+	dynasty=1
+	diplomacy=5
+	martial=5
+	stewardship=5
+	intrigue=5
+	learning=5
+	religion=jewish
+	culture=jew
+	father=23
+	324.1.1={birth=yes}
+	350.1.1={death=yes}
+}
+26 = {
+	name=Gann # Сын Dela
+	dynasty=1
+	diplomacy=5
+	martial=5
+	stewardship=5
+	intrigue=5
+	learning=5
+	religion=jewish
+	culture=jew
+	father=25
+	349.1.1={birth=yes}
+	349.1.1={add_spouse=27}
+	375.1.1={death=yes}
+}
+27 = {
+	name=Etar # Жена Gann
+	female = yes
+	diplomacy=5
+	martial=5
+	stewardship=5
+	intrigue=5
+	learning=5
+	religion=jewish
+	culture=jew
+	349.1.1={birth=yes}
+	375.1.1={death=yes}
+}
+28 = {
+	name=Sengann # Сын Dela
+	dynasty=1
+	diplomacy=5
+	martial=5
+	stewardship=5
+	intrigue=5
+	learning=5
+	religion=jewish
+	culture=jew
+	father=25
+	349.1.1={birth=yes}
+	349.1.1={add_spouse=29}
+	375.1.1={death=yes}
+}
+29 = {
+	name=Anust # Жена Sengann
+	female = yes
+	diplomacy=5
+	martial=5
+	stewardship=5
+	intrigue=5
+	learning=5
+	religion=jewish
+	culture=jew
+	349.1.1={birth=yes}
+	375.1.1={death=yes}
+}
+30 = {
+	name=Geanann # Сын Dela
+	dynasty=1
+	diplomacy=5
+	martial=5
+	stewardship=5
+	intrigue=5
+	learning=5
+	religion=jewish
+	culture=jew
+	father=25
+	349.1.1={birth=yes}
+	349.1.1={add_spouse=31}
+	375.1.1={death=yes}
+}
+31 = {
+	name=Cnucha # Жена Genann
+	female = yes
+	diplomacy=5
+	martial=5
+	stewardship=5
+	intrigue=5
+	learning=5
+	religion=jewish
+	culture=jew
+	349.1.1={birth=yes}
+	375.1.1={death=yes}
+}
+32 = {
+	name=Rudraige # Сын Dela
+	dynasty=1
+	diplomacy=5
+	martial=5
+	stewardship=5
+	intrigue=5
+	learning=5
+	religion=jewish
+	culture=jew
+	father=25
+	349.1.1={birth=yes}
+	349.1.1={add_spouse=33}
+	375.1.1={death=yes}
+}
+33 = {
+	name=Liber # Жена Rudraige
+	female = yes
+	diplomacy=5
+	martial=5
+	stewardship=5
+	intrigue=5
+	learning=5
+	religion=jewish
+	culture=jew
+	349.1.1={birth=yes}
+	375.1.1={death=yes}
+}
+34 = {
+	name=Slainge # Сын Dela
+	dynasty=1
+	diplomacy=5
+	martial=5
+	stewardship=5
+	intrigue=5
+	learning=5
+	religion=jewish
+	culture=jew
+	father=25
+	349.1.1={birth=yes}
+	349.1.1={add_spouse=35}
+	375.1.1={death=yes}
+}
+35 = {
+	name=Fuad # Жена Slainge
+	female = yes
+	diplomacy=5
+	martial=5
+	stewardship=5
+	intrigue=5
+	learning=5
+	religion=jewish
+	culture=jew
+	349.1.1={birth=yes}
+	375.1.1={death=yes}
+}
+36 = {
+	name = "Sreng"
+	dynasty=1
+	diplomacy=5
+	martial=5
+	stewardship=5
+	intrigue=5
+	learning=5
+	health = 25
+	religion=jewish
+	culture=jew
+	trait=skilled_tactician
+	trait=inspiring_leader
+	trait=organizer
+	trait=strong
+	father=28
+	374.1.1={birth=yes}
+	400.1.1={death=yes}
+}
